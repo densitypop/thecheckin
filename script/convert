@@ -1,11 +1,7 @@
 #!/bin/bash
 
-if [ $2 ]; then
-  NEW=$2
-else
-  NEW=$ORIGINAL
-fi
-
 ORIGINAL=$1
+NEW=$2
 
-ffmpeg -i $ORIGINAL.mp3 -ab 6400 $NEW.ogg
+
+ffmpeg -i $ORIGINAL -ab 6400 $NEW.ogg
