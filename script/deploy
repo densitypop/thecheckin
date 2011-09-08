@@ -1,9 +1,23 @@
 #!/usr/bin/env ruby
 
 require 'shellwords'
+require 'jekyll'
 
 bucket_path = ARGV.pop
-deploy_from = Shellwords.shellescape(File.expand_path(File.join(File.dirname(__FILE__), "..")))
+site = Jekyll::Site.new(Jekyll.configuration({}))
+
+begin
+  site.process
+rescue Jekyll::FatalException => e
+  puts
+  puts "ERROR: YOUR SITE COULD NOT BE BUILT:"
+  puts "------------------------------------"
+  puts e.message
+  exit(1)
+end
+
+
+deploy_from = Shellwords.shellescape(site.config['destination'])
 
 puts "Deploying to #{bucket_path} from #{deploy_from}"
 
