@@ -1,0 +1,11 @@
+url: "http://thecheckin.densitypop.com"
+pygments: true
+exclude: [bin, script, Gemfile, Gemfile.lock]
+markdown: kramdown
+permalink: pretty
+destination: public
+paginate: 10
+
+kramdown:
+  entity_output: symbolic
+

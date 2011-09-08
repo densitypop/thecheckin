@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'shellwords'
+
+bucket_path = ARGV.pop
+deploy_from = Shellwords.shellescape(File.expand_path(File.join(File.dirname(__FILE__), "..")))
+
+puts "Deploying to #{bucket_path} from #{deploy_from}"
+
+`s3cmd sync #{Shellwords.shelljoin(ARGV)} --delete-removed  #{deploy_from}/ #{bucket_path}`
