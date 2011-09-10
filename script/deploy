@@ -21,4 +21,4 @@ deploy_from = Shellwords.shellescape(site.config['destination'])
 
 puts "Deploying to #{bucket_path} from #{deploy_from}"
 
-`s3cmd sync #{Shellwords.shelljoin(ARGV)} --delete-removed  #{deploy_from}/ #{bucket_path}`
+`s3cmd sync #{Shellwords.shelljoin(ARGV)} -P --delete-removed  #{deploy_from}/ #{bucket_path}`
