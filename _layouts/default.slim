@@ -25,4 +25,14 @@ html lang="en"
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   body
     section.container
+      header
+        p.logo
+          strong The Check In
+      p A weekly podcast in which two friends discuss their attempts to bootstrap side businesses while both working full time and having a family. It's a different kind of start up podcast, made for anyone who wants their own business, but isn't interested in having investors.
+      p
+        ' Subscribe to this podcast using our
+        a href="{{ site.url }}/feed.xml" RSS feed
+        '  or
+        a href="{{ site.itunes_url }}/feed.xml" subscribe directly in iTunes
+        | .
       | {{ content }}

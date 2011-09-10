@@ -30,6 +30,23 @@
     </itunes:category>
 
     <item>
+      <title>Week 6</title>
+      <link>{{ site.url }}</link>
+      <guid>{{ site.url }}/episodes/week6.mp3</guid>
+      <description>In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started</description>
+      <enclosure url="{{ site.episode_bucket }}/episodes/week6.mp3" length="23430919" type="audio/mpeg"/>
+      <category>Business</category>
+      <pubDate>Sat, 10 Sep 2011 11:30:00 -0500</pubDate>
+
+      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
+
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle>In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started</itunes:subtitle>
+      <itunes:summary>In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started</itunes:summary>
+      <itunes:duration>00:48:48</itunes:duration>
+      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
+    </item>
+    <item>
       <title>Week 5</title>
       <link>{{ site.url }}</link>
       <guid>{{ site.url }}/episodes/week5.mp3</guid>
