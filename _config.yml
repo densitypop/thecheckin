@@ -1,6 +1,6 @@
 url: "http://thecheckin.densitypop.com"
 pygments: true
-exclude: [bin, script, Gemfile, Gemfile.lock]
+exclude: [bin, script, Gemfile, Gemfile.lock, episodes]
 markdown: kramdown
 permalink: pretty
 destination: public
