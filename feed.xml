@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  
+
   <channel>
 
     <title>The Check In</title>
@@ -17,90 +17,90 @@
     <itunes:summary>The Check In is a weekly podcast in which two friends keep discuss their attempts to bootstrap side businesses while both working full time and having a family. It's a different kind of start up podcast, made for anyone who wants a their own business, but isn't interested in having investors.</itunes:summary>
 
     <itunes:owner>
-           <itunes:name>Joe Fiorini</itunes:name>
-           <itunes:email>joe@joefiorini.com</itunes:email>
+      <itunes:name>Joe Fiorini</itunes:name>
+      <itunes:email>joe@joefiorini.com</itunes:email>
     </itunes:owner>
 
-<itunes:explicit>No</itunes:explicit>
+    <itunes:explicit>No</itunes:explicit>
 
-<itunes:category text="Business">
-     <itunes:category text="Technology"/>
-</itunes:category>
+    <itunes:category text="Business">
+      <itunes:category text="Technology"/>
+    </itunes:category>
 
-<item>
-<title>Week 5</title>
-<link>http://thecheckin.densitypop.com</link>
-<guid>http://thecheckin.dev/episodes/week5.mp3</guid>
-<description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
-<enclosure url="http://thecheckin.dev/episodes/week5.mp3" length="19894357" type="audio/mpeg"/>
-<category>Business</category>
-<pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
+    <item>
+      <title>Week 5</title>
+      <link>http://thecheckin.densitypop.com</link>
+      <guid>http://thecheckin.dev/episodes/week5.mp3</guid>
+      <description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
+      <enclosure url="http://thecheckin.dev/episodes/week5.mp3" length="19894357" type="audio/mpeg"/>
+      <category>Business</category>
+      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
-<itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
+      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
 
-<itunes:explicit>No</itunes:explicit>
-<itunes:subtitle>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</itunes:subtitle>
-<itunes:summary>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</itunes:summary>
-<itunes:duration>00:41:26</itunes:duration>
-<itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</itunes:subtitle>
+      <itunes:summary>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</itunes:summary>
+      <itunes:duration>00:41:26</itunes:duration>
+      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
 
-</item>
-<item>
-<title>Week 4</title>
-<link>http://thecheckin.densitypop.com</link>
-<guid>http://thecheckin.dev/episodes/week4.mp3</guid>
-<description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
-<enclosure url="http://thecheckin.dev/episodes/week4.mp3" length="15019908" type="audio/mpeg"/>
-<category>Business</category>
-<pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Week 4</title>
+      <link>http://thecheckin.densitypop.com</link>
+      <guid>http://thecheckin.dev/episodes/week4.mp3</guid>
+      <description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
+      <enclosure url="http://thecheckin.dev/episodes/week4.mp3" length="15019908" type="audio/mpeg"/>
+      <category>Business</category>
+      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
-<itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
+      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
 
-<itunes:explicit>No</itunes:explicit>
-<itunes:subtitle>We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.</itunes:subtitle>
-<itunes:summary>We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.</itunes:summary>
-<itunes:duration>00:31:17</itunes:duration>
-<itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle>We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.</itunes:subtitle>
+      <itunes:summary>We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.</itunes:summary>
+      <itunes:duration>00:31:17</itunes:duration>
+      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
 
-</item>
-<item>
-<title>Week 3</title>
-<link>http://thecheckin.densitypop.com</link>
-<guid>http://thecheckin.dev/episodes/week3.mp3</guid>
-<description>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</description>
-<enclosure url="http://thecheckin.dev/episodes/week3.mp3" length="26528205" type="audio/mpeg"/>
-<category>Business</category>
-<pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Week 3</title>
+      <link>http://thecheckin.densitypop.com</link>
+      <guid>http://thecheckin.dev/episodes/week3.mp3</guid>
+      <description>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</description>
+      <enclosure url="http://thecheckin.dev/episodes/week3.mp3" length="26528205" type="audio/mpeg"/>
+      <category>Business</category>
+      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
-<itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
+      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
 
-<itunes:explicit>No</itunes:explicit>
-<itunes:subtitle>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</itunes:subtitle>
-<itunes:summary>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</itunes:summary>
-<itunes:duration>00:55:15</itunes:duration>
-<itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</itunes:subtitle>
+      <itunes:summary>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</itunes:summary>
+      <itunes:duration>00:55:15</itunes:duration>
+      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
 
-</item>
-<item>
-<title>Week 2</title>
-<link>http://thecheckin.densitypop.com</link>
-<guid>http://thecheckin.dev/episodes/week2.mp3</guid>
-<description>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</description>
-<enclosure url="http://thecheckin.dev/episodes/week2.mp3" length="50721807" type="audio/mpeg"/>
-<category>Business</category>
-<pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Week 2</title>
+      <link>http://thecheckin.densitypop.com</link>
+      <guid>http://thecheckin.dev/episodes/week2.mp3</guid>
+      <description>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</description>
+      <enclosure url="http://thecheckin.dev/episodes/week2.mp3" length="50721807" type="audio/mpeg"/>
+      <category>Business</category>
+      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
-<itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
+      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
 
-<itunes:explicit>No</itunes:explicit>
-<itunes:subtitle>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</itunes:subtitle>
-<itunes:summary>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</itunes:summary>
-<itunes:duration>00:34:44</itunes:duration>
-<itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</itunes:subtitle>
+      <itunes:summary>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</itunes:summary>
+      <itunes:duration>00:34:44</itunes:duration>
+      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
 
-</item>
+    </item>
 
 
-</channel>
+  </channel>
 
 </rss>
