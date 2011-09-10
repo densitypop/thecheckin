@@ -1,3 +1,5 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
@@ -29,10 +31,10 @@
 
     <item>
       <title>Week 5</title>
-      <link>http://thecheckin.densitypop.com</link>
-      <guid>http://thecheckin.dev/episodes/week5.mp3</guid>
+      <link>{{ site.url }}</link>
+      <guid>{{ site.url }}/episodes/week5.mp3</guid>
       <description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
-      <enclosure url="http://thecheckin.dev/episodes/week5.mp3" length="19894357" type="audio/mpeg"/>
+      <enclosure url="{{ site.episode_bucket }}/episodes/week5.mp3" length="19894357" type="audio/mpeg"/>
       <category>Business</category>
       <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
@@ -47,10 +49,10 @@
     </item>
     <item>
       <title>Week 4</title>
-      <link>http://thecheckin.densitypop.com</link>
-      <guid>http://thecheckin.dev/episodes/week4.mp3</guid>
+      <link>{{ site.url }}</link>
+      <guid>{{ site.url }}/episodes/week4</guid>
       <description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
-      <enclosure url="http://thecheckin.dev/episodes/week4.mp3" length="15019908" type="audio/mpeg"/>
+      <enclosure url="{{ site.episode_bucket }}/episodes/week4.mp3" length="15019908" type="audio/mpeg"/>
       <category>Business</category>
       <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
@@ -65,10 +67,10 @@
     </item>
     <item>
       <title>Week 3</title>
-      <link>http://thecheckin.densitypop.com</link>
-      <guid>http://thecheckin.dev/episodes/week3.mp3</guid>
+      <link>{{ site.url }}</link>
+      <guid>{{ site.url }}/episodes/week3</guid>
       <description>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</description>
-      <enclosure url="http://thecheckin.dev/episodes/week3.mp3" length="26528205" type="audio/mpeg"/>
+      <enclosure url="{{ site.episode_bucket }}/episodes/week3.mp3" length="26528205" type="audio/mpeg"/>
       <category>Business</category>
       <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
@@ -83,10 +85,10 @@
     </item>
     <item>
       <title>Week 2</title>
-      <link>http://thecheckin.densitypop.com</link>
-      <guid>http://thecheckin.dev/episodes/week2.mp3</guid>
+      <link>{{ site.url }}</link>
+      <guid>{{ site.url }}/episodes/week2.mp3</guid>
       <description>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</description>
-      <enclosure url="http://thecheckin.dev/episodes/week2.mp3" length="50721807" type="audio/mpeg"/>
+      <enclosure url="{{ site.episode_bucket }}/episodes/week2.mp3" length="50721807" type="audio/mpeg"/>
       <category>Business</category>
       <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
 
