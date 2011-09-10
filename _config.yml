@@ -1,5 +1,6 @@
 url: "http://thecheckin.densitypop.com"
-episode_bucket: "http://thecheckin.s3.amazonaws.com/"
+itunes_url: "itpc://thecheckin.densitypop.com"
+episode_bucket: "http://thecheckin.s3.amazonaws.com"
 pygments: true
 exclude: [bin, script, Gemfile, Gemfile.lock, episodes]
 markdown: kramdown
