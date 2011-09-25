@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<p>Is this useful? Should we keep posting? <a href="mailto:thecheckin@joefiorini.com">Email us and let us know</a>!</p>
+<p>
+  Is this useful? Should we keep posting?
+  <a href="mailto:thecheckin@joefiorini.com">Email us and let us know</a>!
+</p>
 {% for post in site.posts %}
   <h2>
     <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
@@ -10,11 +13,10 @@ layout: default
   <p><a href="{{ site.url }}{{ post.url }}">Read more</a></p>
   <hr>
 {% endfor %}
-<footer></footer>
-<p>
-<strong>The Check In</strong>
-</p>
-<p>Hosted by Alan Audette &amp; Joe Fiorini</p>
-<p>Theme song is <a href="http://ccmixter.org/files/Nurykabe/32448">Fish by Nurykabe</a>
-</p>
-
+<footer>
+  <p><strong>The Check In</strong></p>
+  <p>Hosted by Alan Audette &amp; Joe Fiorini</p>
+  <p>
+    Theme song is <a href="http://ccmixter.org/files/Nurykabe/32448">Fish by Nurykabe</a>
+  </p>
+</footer>
