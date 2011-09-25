@@ -1,0 +1,8 @@
+---
+layout: episode
+sources:
+  - [/episodes/week2.mp3, audio/mp3]
+  - [/episodes/week2.ogg, audio/ogg]
+---
+
+Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.

@@ -1,0 +1,8 @@
+---
+layout: episode
+sources:
+  - [/episodes/week3.mp3, audio/mp3]
+  - [/episodes/week3.ogg, audio/ogg]
+---
+
+This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.

@@ -1,0 +1,8 @@
+---
+layout: episode
+sources:
+  - [/episodes/week4.mp3, audio/mp3]
+  - [/episodes/week4.ogg, audio/ogg]
+---
+
+We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.

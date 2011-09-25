@@ -1,0 +1,8 @@
+---
+layout: episode
+sources:
+  - [/episodes/week5.mp3, audio/mp3]
+  - [/episodes/week5.ogg, audio/ogg]
+---
+
+More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from <a href="http://joeybeninghove.com/">Joey Beninghove</a> to talk about his podcast <a href="http://technorati.com/tag/coder-talk">CoderTalk</a>.  If you want to hear us talk geek check out the <a href="http://joeybeninghove.com/2011/08/25/coder-talk-3">latest episode of CoderTalk</a>.
