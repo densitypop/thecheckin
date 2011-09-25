@@ -1,5 +1,8 @@
 ---
 layout: episode
+sources:
+  - [/episodes/week6.mp3, audio/mp3]
+  - [/episodes/week6.ogg, audio/ogg]
 links: |
   - [Python Tools for Visual Studio Announcement][python] and [Download][python-download]
   - [Jimmy Schementi & IronRuby announcement](http://www.rubyinside.com/microsoft-tires-of-ironruby-jimmy-schementi-jumps-ship-3639.html)
@@ -14,10 +17,3 @@ links: |
 ---
 
 In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started [linking to the topics](/episodes/week-6) we discuss on air so you can read more.
-
-<audio controls="" height="20" width="320">
-  <source src="/episodes/week6.mp3" type="audio/mp3">
-  <source src="/episodes/week6.ogg" type="audio/ogg">
-</audio>
-
-[Download](/episodes/week6.mp3)

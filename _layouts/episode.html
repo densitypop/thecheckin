@@ -6,6 +6,10 @@ layout: default
 
 {{ content }}
 
+{{ page.sources | audio }}
+
+<a href="{{ page.sources | first | download_path }}">Download</a>
+
 {% if page.links %}
   <h2>Episode Links</h2>
   {{ page.links | markdownify }}
