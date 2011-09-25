@@ -29,96 +29,25 @@
       <itunes:category text="Technology"/>
     </itunes:category>
 
+    {% for post in site.posts %}
     <item>
-      <title>Week 6</title>
+      <title>{{ post.title }}</title>
       <link>{{ site.url }}</link>
-      <guid>{{ site.url }}/episodes/week6.mp3</guid>
-      <description>In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started</description>
-      <enclosure url="{{ site.episode_bucket }}/episodes/week6.mp3" length="23430919" type="audio/mpeg"/>
+      <guid>{{ site.url }}{{ post.url }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+      <enclosure url="{{ post.sources | first | download_path }}" length="23430919" type="audio/mpeg"/>
       <category>Business</category>
-      <pubDate>Sat, 10 Sep 2011 11:30:00 -0500</pubDate>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
 
       <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
 
       <itunes:explicit>No</itunes:explicit>
-      <itunes:subtitle>In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started</itunes:subtitle>
-      <itunes:summary>In this episode we review some listener feedback and explore communication between developers and the businesspeople they inevitably work with. With this episode we've started</itunes:summary>
-      <itunes:duration>00:48:48</itunes:duration>
+      <itunes:subtitle>{{ post.content | xml_escape }}</itunes:subtitle>
+      <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+      <itunes:duration>{{ post.duration }}</itunes:duration>
       <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
     </item>
-    <item>
-      <title>Week 5</title>
-      <link>{{ site.url }}</link>
-      <guid>{{ site.url }}/episodes/week5.mp3</guid>
-      <description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
-      <enclosure url="{{ site.episode_bucket }}/episodes/week5.mp3" length="19894357" type="audio/mpeg"/>
-      <category>Business</category>
-      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
-
-      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
-
-      <itunes:explicit>No</itunes:explicit>
-      <itunes:subtitle>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</itunes:subtitle>
-      <itunes:summary>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</itunes:summary>
-      <itunes:duration>00:41:26</itunes:duration>
-      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
-
-    </item>
-    <item>
-      <title>Week 4</title>
-      <link>{{ site.url }}</link>
-      <guid>{{ site.url }}/episodes/week4</guid>
-      <description>More updates on our side businesses: Alan is about ready to release his iPhone apps. We also discuss marketing copy and understanding your users. This episode also features a cameo from Joey Beninghove to talk about his podcast CoderTalk. If you want to hear us talk geek check out the latest episode of CoderTalk.</description>
-      <enclosure url="{{ site.episode_bucket }}/episodes/week4.mp3" length="15019908" type="audio/mpeg"/>
-      <category>Business</category>
-      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
-
-      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
-
-      <itunes:explicit>No</itunes:explicit>
-      <itunes:subtitle>We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.</itunes:subtitle>
-      <itunes:summary>We're both making progress on our side businesses. Alan updates us on both his business pursuits and home pursuits, while Joe reminds us all how lazy he is. We also discuss marketing to programmers and what makes it different than marketing to other audiences.</itunes:summary>
-      <itunes:duration>00:31:17</itunes:duration>
-      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
-
-    </item>
-    <item>
-      <title>Week 3</title>
-      <link>{{ site.url }}</link>
-      <guid>{{ site.url }}/episodes/week3</guid>
-      <description>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</description>
-      <enclosure url="{{ site.episode_bucket }}/episodes/week3.mp3" length="26528205" type="audio/mpeg"/>
-      <category>Business</category>
-      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
-
-      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
-
-      <itunes:explicit>No</itunes:explicit>
-      <itunes:subtitle>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</itunes:subtitle>
-      <itunes:summary>This week we discuss starting a business when you have a family (and how the startup world is geared towards singles), more on marketing your product and yourself and more. We also debate whether it's okay to follow the "traditional" online marketing formula of gathering emails, setting up ad words and building for SEO or if it's better to sell yourself based on your expertise.</itunes:summary>
-      <itunes:duration>00:55:15</itunes:duration>
-      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
-
-    </item>
-    <item>
-      <title>Week 2</title>
-      <link>{{ site.url }}</link>
-      <guid>{{ site.url }}/episodes/week2.mp3</guid>
-      <description>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</description>
-      <enclosure url="{{ site.episode_bucket }}/episodes/week2.mp3" length="50721807" type="audio/mpeg"/>
-      <category>Business</category>
-      <pubDate>Sat, 27 Aug 2011 11:30:00 -0500</pubDate>
-
-      <itunes:author>Joe Fiorini &amp; Alan Audette</itunes:author>
-
-      <itunes:explicit>No</itunes:explicit>
-      <itunes:subtitle>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</itunes:subtitle>
-      <itunes:summary>Alan and Joe are friends from high school who recently discovered they have a similar passion for building and selling their own products. When not spending time with their families, they are each working on their first product. They recently decided to check in every week via Skype in hopes that some accountability will help them succeed.</itunes:summary>
-      <itunes:duration>00:34:44</itunes:duration>
-      <itunes:keywords>startups, marketing, technology, geeks, developers, programming, ios, Ruby, Rails, Javascript</itunes:keywords>
-
-    </item>
-
+    {% endfor %}
 
   </channel>
 

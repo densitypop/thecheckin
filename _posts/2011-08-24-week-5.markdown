@@ -1,5 +1,6 @@
 ---
 layout: episode
+duration: 00:41:26
 sources:
   - [/episodes/week5.mp3, audio/mp3]
   - [/episodes/week5.ogg, audio/ogg]
